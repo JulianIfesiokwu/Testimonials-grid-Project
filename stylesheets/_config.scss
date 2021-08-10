@@ -15,3 +15,8 @@ $Light-grayish-blue: hsl(210, 46%, 95%);
     font-size: 13px;
 }
 
+@mixin media-md {
+    @media screen and (min-width: 741px) {
+        @content;
+    }
+}

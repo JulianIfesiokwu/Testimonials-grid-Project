@@ -1,9 +1,10 @@
 @import './config';
+@import './responsive';
 
 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 2rem 0;
     background-color: $Light-grayish-blue;
 }
 
