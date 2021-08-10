@@ -1,1 +1,73 @@
 @import './config';
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    background-color: $Light-grayish-blue;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.testimonial {
+    padding: 2rem;
+    border-radius: 5px;
+
+    .testimonial__profile {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+
+    .profile__image {
+        display: block;
+        border-radius: 50%;
+        border: 1px solid white;
+    }
+
+    .profile__details {
+        margin-left: 1rem;
+        padding-top: 1rem;
+        .student__status {
+            opacity: 50%;
+        }
+    }
+}
+
+.testimonial__experience {
+    .personal__experience {
+        margin-bottom: 1rem;
+        font-weight: 600;
+        font-size: 1.69rem;
+    }
+
+    .prior__experience {
+        line-height: 1.5rem;
+        opacity: 70%;
+    }
+}
+
+.testimonial--purple {
+    background: $moderate-violet url(../images/bg-pattern-quotation.svg) no-repeat 90% 0;
+    color: $Light-gray;
+}
+
+.testimonial--grey {
+    background: $Very-dark-grayish-blue;
+    color: $White;
+}
+
+.testimonial--white {
+    background: $White;
+    color: $Very-dark-grayish-blue;
+}
+
+.testimonial--dark {
+    background: $Very-dark-blackish-blue;
+    color: $White;
+}

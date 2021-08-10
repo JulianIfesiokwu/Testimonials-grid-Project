@@ -3,5 +3,83 @@
   font-family: 'Barlow Semi Condensed', sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 13px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 0;
+  background-color: #ecf2f8;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+}
+
+.testimonial {
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.testimonial .testimonial__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.testimonial .profile__image {
+  display: block;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.testimonial .profile__details {
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+.testimonial .profile__details .student__status {
+  opacity: 50%;
+}
+
+.testimonial__experience .personal__experience {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.69rem;
+}
+
+.testimonial__experience .prior__experience {
+  line-height: 1.5rem;
+  opacity: 70%;
+}
+
+.testimonial--purple {
+  background: #7541c8 url(../images/bg-pattern-quotation.svg) no-repeat 90% 0;
+  color: #cfcfcf;
+}
+
+.testimonial--grey {
+  background: #48556a;
+  color: white;
+}
+
+.testimonial--white {
+  background: white;
+  color: #48556a;
+}
+
+.testimonial--dark {
+  background: #19212e;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
